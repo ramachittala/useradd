@@ -6,7 +6,7 @@ pipeline {
     stages {
       stage('Useracreate') {
           steps {
-           useradd $(params.PERSON)
+           useradd $PERSON
            }
       }
     } 
