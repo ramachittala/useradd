@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-       string (name: 'PERSON', defaultvalue: 'rchittala', description: 'User creation')
+       string (name: 'PERSON', defaultValue: 'rchittala', description: 'User creation')
     }
     stages {
       stage('Useracreate') {
